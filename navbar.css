@@ -1,0 +1,73 @@
+.navbar {
+    min-height: 8vh;
+    width: 100%;
+    background: linear-gradient(teal,grey);   
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    justify-content: space-between; 
+}
+.links ul li a,
+.links ul li a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.links ul li a:hover {
+  color: black; /* Keeps color black on hover */
+}
+
+
+.navbar, .navbar .logo, .navbar .links, .navbar ul {
+    min-height: 8vh;
+}
+
+.navbar .logo {
+    width: 30%;
+}
+
+.navbar .links {
+    width: 70%;
+    color: black;
+}
+
+.navbar ul, .navbar .logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .logo {
+    font-style: italic;
+    text-decoration: underline 2px;
+    color: gold;
+}
+@keyframes fadeInBounce {
+    0% {
+      opacity: 0;
+      transform: scale(0.5) translateY(-20px);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1) translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  .logo {
+    animation: fadeInBounce 1.5s ease-out infinite;
+  }
+  
+  
+  

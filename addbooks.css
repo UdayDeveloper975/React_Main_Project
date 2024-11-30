@@ -1,0 +1,51 @@
+.addbooks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(skyblue,pink);
+      }
+  
+  .form-container {
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(pink,blue);
+  }
+  
+  .head {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    /* margin-bottom: 10px; */
+    text-decoration: underline;
+  }
+  
+  .inputfield {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: auto auto;
+    box-shadow: inset 1px 10px 20px palevioletred;
+  }
+  
+  .inputfield input {
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 1px 10px 20px palevioletred;
+  }
+  
+  .addbooks .buttn{
+    display: block;
+    margin:10px  auto;
+    width: 30%;
+    /* height: 6vh; */
+    background: linear-gradient(skyblue , grey);
+    color: rgb(78, 43, 207);
+    border-radius: 10px;
+    border: none;
+  }
+  

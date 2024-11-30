@@ -1,0 +1,94 @@
+.landingpage{
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(https://media.istockphoto.com/id/1284671318/photo/meadows-in-the-snow-peak-mountains-of-himalaya.webp?s=1024x1024&w=is&k=20&c=r-dL9kirCzRqWZHlkKOf3y4IS0rI8EmYZKI3ytTo_Iw=); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(blue ,orange);
+}
+.landingpage .containerr{
+    border: 1px solid black;
+    height: 70vh;
+    width: 30vw;
+    box-shadow:inset 1px 1px 10px black;
+    border-radius: 10px;
+
+}
+.landingpage .containerr .btn-box{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 5vh auto 2vh;
+    border-radius: 10vh;
+}
+.landingpage .containerr .btn-box button{
+    height: 100%;
+    width: 50%;
+    border-radius: 10vh;
+    cursor: pointer;
+    border: none;
+    background-color: palevioletred;
+    transition: all .5s;
+}
+.landingpage .containerr .btn-box button:hover{
+    background-color: pink;
+    box-shadow: inset 1px 1px 10px black;
+}
+.landingpage .containerr .btn-box .admin-btn{
+    margin: 0;
+}
+.landingpage .containerr .btn-box .user-btn{
+    margin-left: 50%;
+}
+.landingpage .form-box{
+    border: 1px solid black;
+ 
+}
+.landingpage input,.login-btn{
+    display: block;
+    margin:2vh auto;
+    min-height: 9vh;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.landingpage input{
+    width: 80%;
+}
+.landingpage .login-btn{
+    width: 30%;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+}
+.landingpage .login-btn:hover{
+    box-shadow: inset 1px 1px 5px rgb(96, 96, 255);
+}
+.landingpage .text-box{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size:larger;
+    color: palevioletred;
+    text-shadow: 1px 1px 5px blue;
+}
+.landingpage .forgetten{
+    text-align: center;
+    margin: 5vh 0;
+}
+.landingpage .forgetten button{
+    border: none;
+    background: none;
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+.landingpage button:active{
+    transform: scale(0.9);
+}
